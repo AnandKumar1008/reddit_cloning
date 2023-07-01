@@ -1,0 +1,56 @@
+.post{
+    border: 2px solid white;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 1rem;
+    padding-bottom: 0;
+    color: white;
+    margin: 8px;
+    max-width: 80vw;
+}
+
+.post h3{
+    color: yellow;
+}
+
+#postimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.post img{
+    max-width: 50vw;
+    max-height: 50vh;
+}
+
+.reaction{
+display: flex;
+
+}
+
+
+.ReactionLogo{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    padding: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+.ReactionLogo h4{
+    font-size: 1.2rem;
+}
+
+.updown{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+
+}
